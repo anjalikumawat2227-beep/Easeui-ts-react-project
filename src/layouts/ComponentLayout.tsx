@@ -31,9 +31,10 @@ const ComponentLayout = ({}: Props) => {
           transform ${sidebarOpen ? "translate-x-0" : "-translate-x-full"} 
           transition-transform duration-300 ease-in-out
           md:translate-x-0
+
         `}
       >
-        <h2 className="text-md font-bold mb-6">Components</h2>
+        <h2 className="text-md font-bold mb-6 text-[var(--text-color)]">Components</h2>
         <ul className="flex flex-col gap-2">
           {components.map((item) => (
             <li

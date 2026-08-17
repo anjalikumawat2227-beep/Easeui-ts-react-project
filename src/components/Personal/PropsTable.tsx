@@ -13,12 +13,16 @@ const PropsTable = ({ data }: PropsTableProps) => {
       <table className="w-full">
         <thead className="">
           <tr>
-            <th className="px-4 py-3 text-left text-sm font-semibold ">Prop</th>
-            <th className="px-4 py-3 text-left text-sm font-semibold ">Type</th>
-            <th className="px-4 py-3 text-left text-sm font-semibold ">
+            <th className="px-4 py-3 text-left text-sm font-semibold text-[var(--text-color)]">
+              Prop
+            </th>
+            <th className="px-4 py-3 text-left text-sm font-semibold text-[var(--text-color)]">
+              Type
+            </th>
+            <th className="px-4 py-3 text-left text-sm font-semibold text-[var(--text-color)]">
               Default
             </th>
-            <th className="px-4 py-3 text-left text-sm font-semibold ">
+            <th className="px-4 py-3 text-left text-sm font-semibold text-[var(--text-color)]">
               Description
             </th>
           </tr>

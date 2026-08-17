@@ -105,7 +105,7 @@ const InputPage = () => {
       </section>
 
       <section className="space-y-2">
-        <h2 className="text-2xl font-semibold">API Reference</h2>
+        <h2 className="text-2xl font-semibold text-[var(--text-color)]">API Reference</h2>
         <PropsTable data={propsData} />
       </section>
     </div>
